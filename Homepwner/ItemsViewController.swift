@@ -27,4 +27,12 @@ class ItemsViewController: UITableViewController {
         
         return cell
     }
+    
+    @IBAction func addNewItem(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func toggleEditingMode(sender: AnyObject) {
+        
+    }
 }

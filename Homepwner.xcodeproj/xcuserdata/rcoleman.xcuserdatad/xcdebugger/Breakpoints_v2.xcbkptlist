@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81">
+            startingLineNumber = "112"
+            endingLineNumber = "112">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76">
+            startingLineNumber = "107"
+            endingLineNumber = "107">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -38,11 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80">
+            startingLineNumber = "111"
+            endingLineNumber = "111">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83">
+            startingLineNumber = "114"
+            endingLineNumber = "114">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -66,11 +66,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84">
+            startingLineNumber = "115"
+            endingLineNumber = "115">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,11 +80,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85">
+            startingLineNumber = "116"
+            endingLineNumber = "116">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,11 +94,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86">
+            startingLineNumber = "117"
+            endingLineNumber = "117">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -108,11 +108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87">
+            startingLineNumber = "118"
+            endingLineNumber = "118">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88">
+            startingLineNumber = "119"
+            endingLineNumber = "119">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Homepwner/ItemsViewController.swift"
-            timestampString = "484444849.470452"
+            timestampString = "484709853.631242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91">
+            startingLineNumber = "122"
+            endingLineNumber = "122">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

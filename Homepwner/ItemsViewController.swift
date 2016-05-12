@@ -29,10 +29,33 @@ class ItemsViewController: UITableViewController {
     }
     
     @IBAction func addNewItem(sender: AnyObject) {
+        let newItem = itemStore.createItem()
         
+        if let index = itemStore.allItems.indexOf(newItem) {
+            let indexPath = NSIndexPath(forRow: index, inSection: 0)
+            
+            tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+        }
     }
     
     @IBAction func toggleEditingMode(sender: AnyObject) {
-        
+        if self.editing {
+            sender.setTitle("Edit", forState: UIControlState.Normal)
+            self.setEditing(false, animated: true)
+        } else {
+            sender.setTitle("Done", forState: UIControlState.Normal)
+            setEditing(true, animated: true)
+        }
+    }
+    
+    // MARK: UITableViewDataSource Protocol
+    
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.Delete {
+            let item = itemStore.allItems[indexPath.row]
+            itemStore.removeItem(item)
+            
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+        }
     }
 }

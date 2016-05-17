@@ -4,17 +4,14 @@ import UIKit
 class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.navigationItem.leftBarButtonItem = editButtonItem()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let statusBarHeight = UIApplication.sharedApplication().statusBarFrame.height
-        let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)
-        tableView.contentInset = insets
-        tableView.scrollIndicatorInsets = insets
-        
-        tableView.rowHeight = 65
-        tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 65
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,6 +31,12 @@ class ItemsViewController: UITableViewController {
         return cell
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.tableView.reloadData()
+    }
+    
     @IBAction func addNewItem(sender: AnyObject) {
         let newItem = itemStore.createItem()
         
@@ -44,16 +47,16 @@ class ItemsViewController: UITableViewController {
         }
     }
     
-    @IBAction func toggleEditingMode(sender: AnyObject) {
-        if self.editing {
-            sender.setTitle("Edit", forState: UIControlState.Normal)
-            self.setEditing(false, animated: true)
-        } else {
-            sender.setTitle("Done", forState: UIControlState.Normal)
-            setEditing(true, animated: true)
-        }
-    }
-    
+//    @IBAction func toggleEditingMode(sender: AnyObject) {
+//        if self.editing {
+//            sender.setTitle("Edit", forState: UIControlState.Normal)
+//            self.setEditing(false, animated: true)
+//        } else {
+//            sender.setTitle("Done", forState: UIControlState.Normal)
+//            setEditing(true, animated: true)
+//        }
+//    }
+
     // MARK: UITableViewDataSource Protocol
     
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
@@ -79,5 +82,15 @@ class ItemsViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
         itemStore.moveItemAtIndex(sourceIndexPath.row, toIndex: destinationIndexPath.row)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowItem" {
+            if let row = self.tableView.indexPathForSelectedRow?.row {
+                let item = itemStore.allItems[row]
+                let detailViewController = segue.destinationViewController as! DetailViewController
+                detailViewController.item = item
+            }
+        }
     }
 }

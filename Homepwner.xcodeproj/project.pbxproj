@@ -15,6 +15,7 @@
 		DC6025D21CDEA0AB00D6C7D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6025D11CDEA0AB00D6C7D0 /* Item.swift */; };
 		DC6025D41CDEBAB000D6C7D0 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6025D31CDEBAB000D6C7D0 /* ItemStore.swift */; };
 		DC6025D61CE55FBA00D6C7D0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6025D51CE55FBA00D6C7D0 /* ItemCell.swift */; };
+		DC6025D81CE9177200D6C7D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6025D71CE9177200D6C7D0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DC6025D11CDEA0AB00D6C7D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DC6025D31CDEBAB000D6C7D0 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		DC6025D51CE55FBA00D6C7D0 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		DC6025D71CE9177200D6C7D0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				DC6025D11CDEA0AB00D6C7D0 /* Item.swift */,
 				DC6025D31CDEBAB000D6C7D0 /* ItemStore.swift */,
 				DC6025D51CE55FBA00D6C7D0 /* ItemCell.swift */,
+				DC6025D71CE9177200D6C7D0 /* DetailViewController.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				DC6025D01CDE9F6400D6C7D0 /* ItemsViewController.swift in Sources */,
 				DC6025D21CDEA0AB00D6C7D0 /* Item.swift in Sources */,
 				DC6025D41CDEBAB000D6C7D0 /* ItemStore.swift in Sources */,
+				DC6025D81CE9177200D6C7D0 /* DetailViewController.swift in Sources */,
 				DC6025BE1CDE9AE600D6C7D0 /* AppDelegate.swift in Sources */,
 				DC6025D61CE55FBA00D6C7D0 /* ItemCell.swift in Sources */,
 			);

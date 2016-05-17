@@ -46,16 +46,6 @@ class ItemsViewController: UITableViewController {
             tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
         }
     }
-    
-//    @IBAction func toggleEditingMode(sender: AnyObject) {
-//        if self.editing {
-//            sender.setTitle("Edit", forState: UIControlState.Normal)
-//            self.setEditing(false, animated: true)
-//        } else {
-//            sender.setTitle("Done", forState: UIControlState.Normal)
-//            setEditing(true, animated: true)
-//        }
-//    }
 
     // MARK: UITableViewDataSource Protocol
     

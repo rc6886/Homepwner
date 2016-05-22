@@ -77,4 +77,12 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
         textField.resignFirstResponder()
         return true
     }
+    
+    // MARK: UIImagePickerControllerDelegate
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        imageView.image = image
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 }
